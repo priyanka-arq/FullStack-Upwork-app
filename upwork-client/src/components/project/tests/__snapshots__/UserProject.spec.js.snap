@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render UserProjects correctly  1`] = `
+<div>
+  <div>
+    <h2>
+      Post your job here? 
+    </h2>
+    <button
+      className="button"
+      onClick={[Function]}
+    >
+      Post your job
+    </button>
+    <styled.div>
+      <img
+        id="phoneImage"
+        src="jobImage.png"
+      />
+    </styled.div>
+  </div>
+</div>
+`;

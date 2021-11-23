@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render profile correctly  1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(Profile)
+    loadProfiles={[MockFunction]}
+    profiles={
+      Array [
+        Object {
+          "aboutme": "I have a great passion about solving real world problems and helping people. And now, with the skills that I have been learning in programming and computer science from the Software Engineering Course at General Assembly, I will be able to do that with new technologies. I believe in the power of technology and its impact to everyone's daily lives.",
+          "email": "test@ga.com",
+          "github": "https://github.com/little-chi-mai",
+          "id": 1,
+          "imageUrl": null,
+          "linkedIn": "https://linkedin.com/in/chi-mai-nguyenn",
+          "name": "Test",
+          "phone": "04444444444",
+          "portfolio": "https://little-chi-mai.github.io/portfolio",
+          "postcode": 2000,
+          "previewSource": "",
+          "resume": "",
+          "skills": Array [
+            "React",
+            "Node",
+            "Java",
+            "CSS",
+          ],
+          "suburb": "Sydney",
+          "title": "Junior Developer",
+          "user": 1,
+        },
+        Object {
+          "aboutme": "I have a great passion about solving real world problems and helping people. And now, with the skills that I have been learning in programming and computer science from the Software Engineering Course at General Assembly, I will be able to do that with new technologies. I believe in the power of technology and its impact to everyone's daily lives.",
+          "email": "test1@ga.com",
+          "github": "https://github.com/little-chi-mai",
+          "id": 2,
+          "imageUrl": null,
+          "linkedIn": "https://linkedin.com/in/chi-mai-nguyenn",
+          "name": "Test1",
+          "phone": "04444444444",
+          "portfolio": "https://little-chi-mai.github.io/portfolio",
+          "postcode": 2000,
+          "previewSource": "",
+          "resume": "",
+          "skills": Array [
+            "HTML",
+            "PHP",
+            "Java",
+            "CSS",
+          ],
+          "suburb": "Sydney",
+          "title": "Developer",
+          "user": 2,
+        },
+        Object {
+          "aboutme": "I have a great passion about solving real world problems and helping people. And now, with the skills that I have been learning in programming and computer science from the Software Engineering Course at General Assembly, I will be able to do that with new technologies. I believe in the power of technology and its impact to everyone's daily lives.",
+          "email": "test2@ga.com",
+          "github": "https://github.com/little-chi-mai",
+          "id": 3,
+          "imageUrl": null,
+          "linkedIn": "https://linkedin.com/in/chi-mai-nguyenn",
+          "name": "Test2",
+          "phone": "04444444444",
+          "portfolio": "https://little-chi-mai.github.io/portfolio",
+          "postcode": 2000,
+          "previewSource": "",
+          "resume": "",
+          "skills": Array [
+            "SWIFT",
+            "PHP",
+            "C#",
+            "CSS",
+          ],
+          "suburb": "Sydney",
+          "title": " Ssenior Developer",
+          "user": 3,
+        },
+      ]
+    }
+  />
+</Provider>
+`;

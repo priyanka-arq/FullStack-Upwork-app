@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can fetch a list of projects and diaplay them 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(Project)
+    projects={
+      Array [
+        Object {
+          "_id": 1,
+          "currentUser": Object {
+            "id": 1,
+          },
+          "description": "TEST1",
+          "email": "TEST@ga.com",
+          "estimatedBudget": 454,
+          "name": "TEST1",
+          "paymentType": "Fixed-Price",
+          "phone": "056565566",
+          "skills": Array [
+            "React",
+            "Node",
+          ],
+        },
+        Object {
+          "_id": 2,
+          "description": "TEST2",
+          "email": "TEST@ga.com",
+          "estimatedBudget": 454,
+          "name": "TEST2",
+          "paymentType": "Fixed-Price",
+          "phone": "056565566",
+          "skills": Array [
+            "Java",
+            "CSS",
+          ],
+          "user": 2,
+        },
+        Object {
+          "_id": 3,
+          "description": "TEST1",
+          "email": "TEST@ga.com",
+          "estimatedBudget": 454,
+          "name": "TEST3",
+          "paymentType": "Fixed-Price",
+          "phone": "056565566",
+          "skills": Array [
+            "HTML",
+            "Angular",
+          ],
+          "user": 3,
+        },
+      ]
+    }
+  />
+</Provider>
+`;

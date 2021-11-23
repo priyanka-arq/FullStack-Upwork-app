@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Profile form correctly 1`] = `
+<div
+  className="form-group"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <h3>
+      Name
+    </h3>
+    <input
+      className="form-control"
+      id="name-input"
+      onChange={[Function]}
+      placeholder="full name"
+      required={true}
+      value="Test"
+    />
+    <h3>
+      Profile Picture
+    </h3>
+    <input
+      alt="imageUrl"
+      className="form-control"
+      name="image"
+      onChange={[Function]}
+      type="file"
+    />
+    <h3>
+      Title
+    </h3>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="title"
+      required={true}
+      type="text"
+      value="Junior Developer"
+    />
+    <h3>
+      About me
+    </h3>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="about me"
+      required={true}
+      type="text"
+      value="I have a great passion about solving real world problems and helping people. And now, with the skills that I have been learning in programming and computer science from the Software Engineering Course at General Assembly, I will be able to do that with new technologies. I believe in the power of technology and its impact to everyone's daily lives."
+    />
+    <h3>
+      Skills
+    </h3>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Skills "
+      required={true}
+      type="text"
+      value={
+        Array [
+          "React",
+          "Node",
+          "Java",
+          "CSS",
+        ]
+      }
+    />
+    <h3>
+      Phone number:
+    </h3>
+    <input
+      className="form-control"
+      name="phone"
+      onChange={[Function]}
+      pattern="/(7|8|9)\\\\d{9}/"
+      placeholder="Phone Number "
+      required={true}
+      type="number"
+      value="04444444444"
+    />
+    <h3>
+      Email
+    </h3>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="email "
+      required={true}
+      type="text"
+      value="test@ga.com"
+    />
+    <h3>
+      Suburb
+    </h3>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Suburb"
+      type="text"
+      value="Sydney"
+    />
+    <h3>
+      Postcode
+    </h3>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Postcode"
+      type="text"
+      value={2000}
+    />
+    <h3>
+      Upload Your Resume
+    </h3>
+    <input
+      alt="resume"
+      className="form-control"
+      name="resume"
+      onChange={[Function]}
+      placeholder="Resume"
+      type="file"
+      value=""
+    />
+    <h3>
+      Connect with LinkedIn
+    </h3>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="LinkedIn"
+      type="text"
+      value="https://linkedin.com/in/chi-mai-nguyenn"
+    />
+    <h3>
+      Link to Portfolio
+    </h3>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Portfolio"
+      type="text"
+      value="https://little-chi-mai.github.io/portfolio"
+    />
+    <h3>
+      Github 
+    </h3>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Portfolio"
+      type="text"
+      value="https://github.com/little-chi-mai"
+    />
+    <button
+      className="button"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should CircularProgress correctly  1`] = `
+<div
+  className="makeStyles-hide-2"
+>
+  <WithStyles(ForwardRef(CircularProgress))
+    color="secondary"
+  />
+  <WithStyles(ForwardRef(CircularProgress))
+    className="makeStyles-green-3"
+  />
+  <WithStyles(ForwardRef(CircularProgress)) />
+</div>
+`;

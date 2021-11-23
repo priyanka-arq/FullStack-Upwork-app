@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render project form correctly  1`] = `
+<div>
+  <div
+    className="form-group"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <h1>
+        New Project
+      </h1>
+      <h3>
+        Name for your project
+      </h3>
+      <input
+        className="form-control"
+        id="name-input"
+        onChange={[Function]}
+        placeholder="name"
+        required={true}
+        value="TEST1"
+      />
+      <h3>
+        Tell us more about your project
+      </h3>
+      <textarea
+        className="form-control"
+        onChange={[Function]}
+        placeholder="project description"
+        required={true}
+        type="text"
+        value="TEST1"
+      />
+      <h3>
+        Skills Required
+      </h3>
+      <TagsInput
+        addKeys={
+          Array [
+            9,
+            13,
+          ]
+        }
+        addOnBlur={false}
+        addOnPaste={false}
+        className="form-control"
+        disabled={false}
+        focusedClassName="react-tagsinput--focused"
+        inputProps={Object {}}
+        maxTags={-1}
+        onChange={[Function]}
+        onlyUnique={false}
+        pasteSplit={[Function]}
+        placeholder="Skills "
+        preventSubmit={true}
+        removeKeys={
+          Array [
+            8,
+          ]
+        }
+        renderInput={[Function]}
+        renderLayout={[Function]}
+        renderTag={[Function]}
+        required={true}
+        tagDisplayProp={null}
+        tagProps={
+          Object {
+            "className": "react-tagsinput-tag",
+            "classNameRemove": "react-tagsinput-remove",
+          }
+        }
+        type="text"
+        validationRegex={/\\.\\*/}
+        value={Array []}
+      />
+      <h3>
+        Payment Type
+      </h3>
+      <select
+        className="form-control"
+        onChange={[Function]}
+        placeholder="payment"
+        required={true}
+        type="text"
+        value="Fixed-Price"
+      >
+        <option
+          value=""
+        >
+          Select paymentType
+        </option>
+        <option
+          value="Fixed-Price"
+        >
+          Fixed Price
+        </option>
+        <option
+          value="Hourly-Rate"
+        >
+          Hourly Rate
+        </option>
+      </select>
+      <h3>
+        Estimated Budget
+      </h3>
+      <input
+        className="form-control"
+        onChange={[Function]}
+        placeholder="$"
+        required={true}
+        type="number"
+        value={454}
+      />
+      <h3>
+        Phone Number
+      </h3>
+      <input
+        className="form-control"
+        onChange={[Function]}
+        placeholder="Phone"
+        required={true}
+        type="number"
+        value="056565566"
+      />
+      <h3>
+        Email
+      </h3>
+      <input
+        className="form-control"
+        onChange={[Function]}
+        placeholder="email"
+        required={true}
+        type="email"
+        value="TEST@ga.com"
+      />
+      <button
+        className="button"
+      >
+        Post Project
+      </button>
+    </form>
+  </div>
+</div>
+`;

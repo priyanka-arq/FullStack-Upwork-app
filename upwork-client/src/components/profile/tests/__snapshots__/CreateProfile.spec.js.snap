@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Create Profile Correctly 1`] = `
+<div>
+  <ProfileForm
+    onSubmit={[Function]}
+  />
+</div>
+`;
